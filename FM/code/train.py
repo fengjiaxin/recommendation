@@ -6,7 +6,6 @@
 # @Desc    : 训练过程
 
 import os
-import sys
 import tensorflow as tf
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',level=logging.INFO)
@@ -15,17 +14,16 @@ from hparams import Hparams
 from util import save_hparams,batch_generator
 from load_data import load_train
 from model import FM
-import os
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
-
-
-import math
 
 
 logging.info("# save hparams")
 hparams = Hparams()
 parser = hparams.parser
 hp = parser.parse_args()
+
+if not os.path.exists(hp.logdir):
+    os.makedirs(hp.logdir)
 save_hparams(hp, hp.logdir)
 
 
@@ -108,3 +106,4 @@ with tf.Session() as sess:
         # print loss of one epoch
         total_loss = np.sum(losses)/num_samples
         logging.info('Epoch {1}, Overall loss = {0:.3g}'.format(total_loss,e+1))
+logging.info('##############train done##############')

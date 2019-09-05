@@ -31,7 +31,7 @@ class Hparams:
     parser.add_argument('--mode', default = 'train',help='train or test', type=str)
 
     # save_path
-    parser.add_argument('--logdir', default="../logs", help="log directory")
+    parser.add_argument('--logdir', default="../model", help="log directory")
     parser.add_argument('--max_to_keep', default=5, type=int)
     parser.add_argument('--num_epochs', default=100, type=int)
     parser.add_argument('--print_every', default=100, type=int)
