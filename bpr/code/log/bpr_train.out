@@ -1,0 +1,51 @@
+2019-09-16 17:50:33,521 : INFO : # get user_count,item_count,user_ratings
+2019-09-16 17:50:33,657 : INFO : # Session
+2019-09-16 17:50:33.681861: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-09-16 17:50:33.682124: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 4. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:From /Users/fengjiaxin/anaconda3/envs/my-rdkit-env/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-09-16 17:50:33,690 : WARNING : From /Users/fengjiaxin/anaconda3/envs/my-rdkit-env/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /Users/fengjiaxin/recommendation/bpr/code/util_helper.py:92: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-09-16 17:50:33,707 : WARNING : From /Users/fengjiaxin/recommendation/bpr/code/util_helper.py:92: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /Users/fengjiaxin/recommendation/bpr/code/util_helper.py:95: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-09-16 17:50:33,709 : WARNING : From /Users/fengjiaxin/recommendation/bpr/code/util_helper.py:95: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /Users/fengjiaxin/anaconda3/envs/my-rdkit-env/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-09-16 17:50:33,776 : WARNING : From /Users/fengjiaxin/anaconda3/envs/my-rdkit-env/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-09-16 17:50:39,825 : INFO : ######## epochs: 0
+2019-09-16 17:50:39,825 : INFO : ######## bpr_loss: 0.9993
+2019-09-16 17:50:45,721 : INFO : ######## epochs: 1
+2019-09-16 17:50:45,722 : INFO : ######## bpr_loss: 0.9941
+2019-09-16 17:50:51,510 : INFO : ######## epochs: 2
+2019-09-16 17:50:51,510 : INFO : ######## bpr_loss: 0.9890
+2019-09-16 17:50:57,049 : INFO : ######## epochs: 3
+2019-09-16 17:50:57,049 : INFO : ######## bpr_loss: 0.9839
+2019-09-16 17:51:02,650 : INFO : ######## epochs: 4
+2019-09-16 17:51:02,650 : INFO : ######## bpr_loss: 0.9792
+2019-09-16 17:51:08,761 : INFO : ######## epochs: 5
+2019-09-16 17:51:08,762 : INFO : ######## bpr_loss: 0.9747
+2019-09-16 17:51:14,891 : INFO : ######## epochs: 6
+2019-09-16 17:51:14,891 : INFO : ######## bpr_loss: 0.9699
+2019-09-16 17:51:20,769 : INFO : ######## epochs: 7
+2019-09-16 17:51:20,769 : INFO : ######## bpr_loss: 0.9656
+2019-09-16 17:51:26,789 : INFO : ######## epochs: 8
+2019-09-16 17:51:26,789 : INFO : ######## bpr_loss: 0.9614
+2019-09-16 17:51:32,655 : INFO : ######## epochs: 9
+2019-09-16 17:51:32,656 : INFO : ######## bpr_loss: 0.9572
+2019-09-16 17:51:34,839 : INFO : test_loss: 1.4963	test_auc:0.5024
+max_user_id:943
+max_item_id:1682
